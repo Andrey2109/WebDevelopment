@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+}
+.poster {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 25px;
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-family: "Dancing Script", serif;
+  text-transform: uppercase;
+}
+img {
+  border: 5px solid white;
+  width: 100%;
+}
