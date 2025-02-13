@@ -5,7 +5,7 @@
   padding: 10px;
 }
 #outer-box {
-  border: 10px solid purple;
+  background-color: purple;
 }
 .inner-box {
   background-color: red;
