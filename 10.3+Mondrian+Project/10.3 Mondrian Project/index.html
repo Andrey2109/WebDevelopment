@@ -48,11 +48,40 @@
       .intermediate-4-inner-1 {
         width: 351px;
         height: 325px;
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+      }
+      .intermediate-4-inner-1-1 {
+        flex-basis: 295px;
         background-color: #f0f1ec;
+      }
+      .intermediate-4-inner-1-2 {
+        display: flex;
+        flex-basis: 21px;
+        gap: 9px;
+      }
+      #inner-1-2-1 {
+        flex-basis: 198px;
+        background-color: #f9d01e;
+      }
+      #inner-1-2-2 {
+        flex-basis: 153px;
+        background-color: #232629;
       }
       .intermediate-4-inner-2 {
         width: 50px;
         height: 325px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      #inner-2-1 {
+        flex-basis: 130px;
+        background-color: #004592;
+      }
+      #inner-2-2 {
+        flex-basis: 185px;
         background-color: #f0f1ec;
       }
 
@@ -81,8 +110,17 @@
         <div class="intermediate-3-inner-2"></div>
       </div>
       <div class="intermediate-4">
-        <div class="intermediate-4-inner-1"></div>
-        <div class="intermediate-4-inner-2"></div>
+        <div class="intermediate-4-inner-1">
+          <div class="intermediate-4-inner-1-1"></div>
+          <div class="intermediate-4-inner-1-2">
+            <div id="inner-1-2-1"></div>
+            <div id="inner-1-2-2"></div>
+          </div>
+        </div>
+        <div class="intermediate-4-inner-2">
+          <div id="inner-2-1"></div>
+          <div id="inner-2-2"></div>
+        </div>
       </div>
     </div>
   </body>
